@@ -54,19 +54,6 @@ ratio: 3)" rel="apple-touch-startup-image"/>
 
 <body ontouchstart="">
 
-	<script>
-	if ('serviceWorker' in navigator) {
-	     window.addEventListener('load', function() {
-	navigator.serviceWorker.register('sw.js').then(function(registration)
-	{
-	           // Registration was successful
-	           console.log('ServiceWorker registration successful with
-	scope: ', registration.scope);
-	     }, function(err) {
-	           // registration failed :(
-	           console.log('ServiceWorker registration failed: ', err);
-	}); });
-	} </script>
 
 	<input class="display" type="text" readonly size="18" id="d">
 	<div class="keys">
@@ -91,5 +78,20 @@ ratio: 3)" rel="apple-touch-startup-image"/>
 		<button class="button function" onclick="Calculator.display('')">C</button>
 		<button class="button operator" onclick="Calculator.e()">=</button>
 	</div>
+
+	<script>
+	if ('serviceWorker' in navigator) {
+			 window.addEventListener('load', function() {
+	navigator.serviceWorker.register('sw.js').then(function(registration)
+	{
+						 // Registration was successful
+						 console.log('ServiceWorker registration successful with scope: ', registration.scope);
+			 }, function(err) {
+						 // registration failed :(
+						 console.log('ServiceWorker registration failed: ', err);
+	}); });
+	} </script>
+
+
 </body>
 </html>
