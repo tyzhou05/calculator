@@ -1,3 +1,5 @@
+<link rel="manifest" href="manifest.json">
+
 {
   "name": "Tony's Progressive Web App",
   "short_name": "Tony's PWA",
