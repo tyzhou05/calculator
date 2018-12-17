@@ -41,6 +41,10 @@
 		<button class="button function" onclick="Calculator.clearMem();">mc</button>
 		<button class="button function" onclick="Calculator.recallMem();">mr</button>
 		<button class="button function" onclick="Calculator.saveMem();">ms</button>
+		<button class="button function" onClick="Calculator.type(Math.E)">E</button>
+		<button class="button number" onClick="Calculator.type('(')">(</button>
+		<button class="button number" onClick="Calculator.type(')')">)</button>
+		<button class="button number" onClick="Calculator.type(Math.PI)">π</button>
 		<button class="button operator" onclick="Calculator.type('/')">÷</button>
 		<button class="button number" onclick="Calculator.type('7')">7</button>
 		<button class="button number" onclick="Calculator.type('8')">8</button>
@@ -55,9 +59,13 @@
 		<button class="button number" onclick="Calculator.type('3')">3</button>
 		<button class="button operator" onclick="Calculator.type('+')">+</button>
 		<button class="button number" onclick="Calculator.type('0')">0</button>
-		<button class="button number" onclick="Calculator.type('.')">.</button>
-		<button class="button function" onclick="Calculator.display('')">C</button>
+		<button class="button number" onclick="Calculator.type('00')">00</button>
+		<button class="button number" onclick="Calculator.type('000')">000</button>
 		<button class="button operator" onclick="Calculator.e()">=</button>
+		<button class="button number" onclick="Calculator.type('.')">.</button>
+		<button class="button number" onClick="Calculator.type('-')">-</button>
+		<button class="button function" onclick="Calculator.display('')">C</button>
+		<button class="button operator" onClick="Calculator.type('**')">^2</button>
 	</div>
 	<script>
 	if ('serviceWorker' in navigator) {
