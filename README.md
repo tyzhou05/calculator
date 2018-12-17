@@ -8,6 +8,11 @@ A very simple calculator, built as a Progressive Web App.
 
 ### Changelog
 
+**Version 1.5**
+
+- Added more operators
+
+
 **Version 1.4**
 
 - Changed touch-icon mistake in manifest.json
