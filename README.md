@@ -8,10 +8,13 @@ A very simple calculator, built as a Progressive Web App.
 
 ### Changelog
 
+**Version 1.6**
+
+- Fixed Error in calculator.js, changed calculator name, and fixed errors
+
 **Version 1.5**
 
 - Added more operators
-
 
 **Version 1.4**
 

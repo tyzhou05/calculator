@@ -1,6 +1,6 @@
 {
-  "name": "Tony's Progressive Web App",
-  "short_name": "Tony's PWA",
+  "name": "Calculator",
+  "short_name": "Calculator",
   "icons": [
     {
       "src": "touch-icons/touch-icon-iphone.png",

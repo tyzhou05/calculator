@@ -81,4 +81,5 @@ var Calculator = {
 		setTimeout(function() {
 			document.getElementById("d").value = temp;
 		}, 1000);
-	},
+	}
+};
